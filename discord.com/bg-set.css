@@ -14,6 +14,10 @@
 .header__104ca{
     background-color:var(--bg-overlay-3,var(--background-secondary));
 }
+/* Transparency for User area */
+.panels__58331{
+    background: transparent;
+}
 /* Deal with nonsense */
 .form__13a2c::before{
     display: none;
@@ -22,21 +26,24 @@
 
 /* Main options */
 body{
-    background-image: url("https://cdn.discordapp.com/attachments/551133173359312896/1166055750171365417/MG_0454.jpg");
+/*     background-image: url("");*/
     background-repeat: no-repeat;
     background-size:cover;
-	/* Blur, see https://caniuse.com/css-backdrop-filter for supported browsers */
     backdrop-filter: blur(5px);
 }
 /* Chat overlay */
 .content__1a4fe{
-    background:rgba(227, 227, 227, .75);
-}
-/* Chat Background */
+    background: rgba(225, 225, 225, .75);
+} 
+/* Chat Background/Overlay */
 .chat__52833{
-    background: blue;
+    background: transparent;
 }
 /* Channel list background */
 .container__590e2{
-    background: rgba(253, 253, 253, .89)!important;
+    background:transparent !important;
+}
+/* User area bg */
+.container_ca50b9{
+    background: rgba(136, 136, 136, .4) !important;
 }

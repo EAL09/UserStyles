@@ -1,16 +1,8 @@
-.buttons_ce5b56> div:nth-child(1) {
-    display:none;
-}
-.buttons_ce5b56> div:nth-child(2) {
-    display:none;
-}
-.buttons_ce5b56> div:nth-child(3) {
-    display:none;
-}
-.buttons_ce5b56> div:nth-child(4) {
-    display:none;
-}
+.buttons_ce5b56> *:nth-child(1) { display:none; }
+.buttons_ce5b56> *:nth-child(2) { display:none; }
+.buttons_ce5b56> *:nth-child(3) { display:none; }
+.buttons_ce5b56> *:nth-child(4) { display:none; }
 
 .attachButton_b1db83{
-    /*display:none;*/
+    display:none;
 }

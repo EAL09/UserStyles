@@ -1,0 +1,7 @@
+/* Last checked working on: stable 441263 (d22e9a2) */
+.bar_c38106 {
+    display:none;
+}
+:root{
+    --custom-app-top-bar-height: 16px;
+}
